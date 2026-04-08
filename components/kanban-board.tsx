@@ -299,6 +299,8 @@ export default function KanbanBoard({ board, userId }: KanbanBoardProps) {
       return;
     }
 
+    
+
     await moveJob(activeId, targetColumnId, newOrder);
   }
 
